@@ -21,7 +21,7 @@ A modern React 19 client application using Vite, PrimeReact, Tailwind CSS, and A
 Make sure you have **Node.js ≥ 18** installed.
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/ObitoBarath/mivdhi-client
 cd mvidhia-client
 npm install
 ```
