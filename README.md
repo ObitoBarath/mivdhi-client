@@ -1,54 +1,110 @@
-# React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Mivdhi Client
 
-Currently, two official plugins are available:
+A modern React 19 client application using Vite, PrimeReact, Tailwind CSS, and Axios.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- ⚡️ Vite for fast development and builds
+- 🎨 TailwindCSS for utility-first styling
+- 🧩 PrimeReact components and themes
+- 🌐 Axios for API calls
+- 🧼 ESLint for linting and code quality
+- 🔧 TypeScript support
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+---
+
+## 📦 Installation
+
+Make sure you have **Node.js ≥ 18** installed.
+
+```bash
+git clone <your-repo-url>
+cd mvidhia-client
+npm install
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 🛠️ Development
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
+Start the Vite development server:
+
+```bash
+npm run dev
 ```
+
+App will be available at: [http://localhost:5173](http://localhost:5173)
+
+---
+
+## 🏗️ Build for Production
+
+To generate the production-ready build:
+
+```bash
+npm run build
+```
+
+Preview the build locally:
+
+```bash
+npm run preview
+```
+
+---
+
+## ✅ Linting
+
+Run ESLint to check for code issues:
+
+```bash
+npm run lint
+```
+
+---
+
+## 📁 Project Structure
+
+```
+mvidhia-client/
+├── public/
+├── src/
+│   ├── components/
+│   ├── hooks/
+│   ├── pages/
+│   ├── services/
+│   └── App.tsx
+├── index.html
+├── tailwind.config.js
+├── tsconfig.json
+└── vite.config.ts
+```
+
+---
+
+## 🧩 Dependencies
+
+- **React 19**
+- **Vite 6**
+- **TailwindCSS 4**
+- **PrimeReact 10**
+- **PrimeIcons**
+- **PrimeFlex**
+- **Bootstrap 5**
+- **Axios**
+
+---
+
+## 📚 Notes
+
+- You can customize Tailwind and PrimeReact themes in `tailwind.config.js` and with PrimeReact's theming system.
+- API requests are handled using Axios configured in `src/AxiosConfig.ts`.
+
+---
+
+## 🧑‍💻 Author
+
+Made with ❤️ by Barath B
