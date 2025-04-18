@@ -22,7 +22,7 @@ Make sure you have **Node.js ≥ 18** installed.
 
 ```bash
 git clone https://github.com/ObitoBarath/mivdhi-client
-cd mvidhia-client
+cd mvidhi-client
 npm install
 ```
 
