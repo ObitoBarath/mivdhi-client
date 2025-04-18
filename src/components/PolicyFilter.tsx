@@ -145,7 +145,7 @@ const PolicyFilter = ({ handleFilterSubmit, setPolicyFilter }: PolicyFilterProps
                                 placeholder="Coverage"
                                 className="form-control"
                                 style={{ width: '100%' }}
-                                value={filters.coverage ?? null}
+                                value={(filters.coverage !== null && parseInt(filters.coverage)) || null}
                                 onValueChange={(e) => handleInputChange('coverage', e.value+"")}
                             />
                         </div>

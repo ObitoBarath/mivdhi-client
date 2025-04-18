@@ -7,7 +7,7 @@ export interface PolicyFilterCriteria {
     policyType: string | null;
     maxPremium: number | null;
     minPremium: number | null;
-    coverage: number | string | null | undefined;
+    coverage:  string | null;
     sortOrder: string;
 }
 
