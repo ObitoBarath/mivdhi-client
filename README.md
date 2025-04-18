@@ -64,26 +64,7 @@ Run ESLint to check for code issues:
 npm run lint
 ```
 
----
 
-## 📁 Project Structure
-
-```
-mvidhia-client/
-├── public/
-├── src/
-│   ├── components/
-│   ├── hooks/
-│   ├── pages/
-│   ├── services/
-│   └── App.tsx
-├── index.html
-├── tailwind.config.js
-├── tsconfig.json
-└── vite.config.ts
-```
-
----
 
 ## 🧩 Dependencies
 
