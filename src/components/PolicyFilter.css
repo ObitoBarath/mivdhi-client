@@ -1,0 +1,10 @@
+.p-inputnumber-input.p-inputtext.p-component{
+    width:  100%;
+}
+.p-dialog-header-icon.p-dialog-header-close.p-link{
+    color : white;
+}
+.p-datatable-wrapper{
+    border:  1px solid #ddd;
+    border-radius: 0.5rem;
+}
